@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-[CreateAssetMenu(fileName = "InfosJoueur", menuName = "SO/NouveauJoueur")]
+[CreateAssetMenu(menuName = "ScriptableObjects/InfosJoueur", fileName = "InfosJoueur")]
 public class InfosJoueur : ScriptableObject
 {
     public string nomJoueur;
+    public int nbPointsPos;
 }
