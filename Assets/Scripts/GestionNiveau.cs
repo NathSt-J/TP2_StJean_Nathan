@@ -6,19 +6,23 @@ using TMPro;
 public class GestionNiveau : MonoBehaviour
 {
 
+    [Header("Informations du joueur")]
     [SerializeField] private InfosJoueur _infosJoueur;
-    [SerializeField] private TMP_Text _nomJoueur;
-    [SerializeField] private TMP_Text _nomParc;
+    [SerializeField] private TMP_Text _nomDuJoueur;
 
-    // Start is called before the first frame update
+    [Space]
+
+    [Header("Informations du niveau")]
+    [SerializeField] private InfosNiveau _infos;
+    [SerializeField] private TMP_Text _nomDuParc;
+    
+
+
+
     void Start()
     {
-        _nomJoueur.text = _infosJoueur.nomJoueur;
-    }
+        _nomDuJoueur.text = _infosJoueur.nomJoueur;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        _nomDuParc.text = _infos.nomParc;
     }
 }
