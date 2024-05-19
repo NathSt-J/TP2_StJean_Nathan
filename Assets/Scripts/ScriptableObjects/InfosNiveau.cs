@@ -5,5 +5,5 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "ScriptableObjects/InfosNiveau", fileName = "InfosNiveau")]
 public class InfosNiveau : ScriptableObject
 {
-    public string nomParc;
+    [SerializeField] public string nomParc;
 }

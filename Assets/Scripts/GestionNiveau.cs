@@ -21,7 +21,7 @@ public class GestionNiveau : MonoBehaviour
 
     void Start()
     {
-        _nomDuJoueur.text = _infosJoueur.nomJoueur;
+/*         _nomDuJoueur.text = _infosJoueur.nomJoueur; */
 
         _nomDuParc.text = _infos.nomParc;
     }
