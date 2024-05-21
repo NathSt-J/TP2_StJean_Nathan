@@ -7,5 +7,5 @@ using UnityEngine.Events;
 public class InfosJoueur : ScriptableObject
 {
     public string nomJoueur;
-    public int nbPointsPos;
+    public int nbPoints;
 }
