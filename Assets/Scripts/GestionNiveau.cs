@@ -8,6 +8,7 @@ public class GestionNiveau : MonoBehaviour
 
     [Header("Informations du joueur")]
     [SerializeField] private InfosJoueur _infosJoueur;
+
     [SerializeField] private TMP_Text _nomDuJoueur;
     [SerializeField] private TMP_Text _compteurPoints;
 
