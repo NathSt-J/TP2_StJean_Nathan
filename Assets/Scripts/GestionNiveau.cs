@@ -23,6 +23,8 @@ public class GestionNiveau : MonoBehaviour
 
     void Start()
     {
+        _infosJoueur.nbPoints = 0;
+        _infosJoueur.nbVies = 3;
         _nomDuJoueur.text = _infosJoueur.nomJoueur;
 
 

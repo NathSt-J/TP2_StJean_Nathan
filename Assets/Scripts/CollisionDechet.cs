@@ -11,11 +11,6 @@ public class CollisionDechet : MonoBehaviour
     private int inventaire;
 
 
-    void Start()
-    {
-        _infosJoueur.nbPoints = 0;
-    }
-
     void Update()
     {
         if(_infosJoueur.nbPoints == 10){
