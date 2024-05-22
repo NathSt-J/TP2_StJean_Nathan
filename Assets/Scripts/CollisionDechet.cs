@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CollisionDechet : MonoBehaviour
 {
@@ -13,6 +14,13 @@ public class CollisionDechet : MonoBehaviour
     void Start()
     {
         _infosJoueur.nbPoints = 0;
+    }
+
+    void Update()
+    {
+        if(_infosJoueur.nbPoints == 10){
+            SceneManager.LoadScene("Fin");
+        }
     }
 
     public void OnTriggerEnter(Collider other)

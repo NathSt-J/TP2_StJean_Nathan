@@ -8,4 +8,5 @@ public class InfosJoueur : ScriptableObject
 {
     public string nomJoueur;
     public int nbPoints;
+    public int nbVies = 3;
 }
